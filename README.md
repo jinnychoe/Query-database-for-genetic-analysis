@@ -2,7 +2,7 @@ Query Database for Genetic Analysis
 =============================================
 This repository contains a set of Python scripts designed to retrieve gene information, sequences, and species with homologous genes. This script has been tested on Linux systems and can be used to analyze gene homology.
 
-Purpose
+About
 ------------------------------------
 The objective of this program is to analyze gene homology using publicly available biological databases. The pipeline involves the following steps:
 
@@ -22,7 +22,7 @@ The objective of this program is to analyze gene homology using publicly availab
 
 8. Writing Homology List: The list of species with homologous genes is written to a file named `{gene_name}_homology_list.txt`.
 
-Execution in Ubuntu/Linux
+Execute the script in Ubuntu/Linux
 ------------------------------------
 1. Ensure that the `query.py` script is located in the working directory.
 

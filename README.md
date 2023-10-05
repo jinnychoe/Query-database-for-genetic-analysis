@@ -26,7 +26,7 @@ Execute the script in Ubuntu/Linux
 ------------------------------------
 1. Ensure that the `query.py` script is located in the working directory.
 
-2. Set your email address for Entrez.email.
+2. Set your email address for the Entrez.email variable in `query.py`.
 
 3. Open a terminal and navigate to the working directory.
 

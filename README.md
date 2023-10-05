@@ -26,23 +26,25 @@ Execution in Ubuntu/Linux:
 ------------------------------------
 1. Ensure that the `query.py` script is located in the working directory.
 
-2. Open a terminal and navigate to the working directory.
+2. Set your email address for Entrez.email.
 
-3. Install dependencies.
+3. Open a terminal and navigate to the working directory.
+
+4. Install dependencies.
 
 pip install biopython
 
 pip install requests
 
-4. Provide executable permissions to the script:
+5. Provide executable permissions to the script:
 
 chmod +x query.py
 
-5. Execute the script with the following command:  
+6. Execute the script with the following command:  
  
 python3 query.py
  
-6. The following outputs are generated:  
+7. The following outputs are generated:  
  
 `{gene_name}_sequence.fasta` contains the gene sequence and the translated amino acid sequence of the longest ORF.
 

@@ -121,7 +121,7 @@ def get_homologous_species(gene_name):
 # Function to get species name using taxonomic ID        
 def get_species_name(taxid):
     # Set your email for Entrez to identify user
-    Entrez.email = "choe.jinny@gmail.com"  
+    Entrez.email = "youremail@server.com"  
     
     # Fetch taxonomy information for given taxonomic ID in XML format
     handle = Entrez.efetch(db="taxonomy", id=taxid, retmode="xml")
@@ -220,4 +220,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

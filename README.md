@@ -22,7 +22,7 @@ The objective of this program is to analyze gene homology using publicly availab
 
 8. Writing Homology List: The list of species with homologous genes is written to a file named `{gene_name}_homology_list.txt`.
 
-Execution in Ubuntu/Linux:
+Execution in Ubuntu/Linux
 ------------------------------------
 1. Ensure that the `query.py` script is located in the working directory.
 
